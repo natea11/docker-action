@@ -33,4 +33,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/${{ secrets.DOCKERHUB_USERNAME }}/app:latest
+            ghcr.io/${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest
